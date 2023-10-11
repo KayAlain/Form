@@ -1,0 +1,85 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    #form {
+        height: 100vh;
+        background: url(img/pexels-towfiqu-barbhuiya-13072971.jpg) center/cover;
+    }
+    
+    h2 {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    
+    h2:hover {
+        color: rgb(46, 165, 42);
+        cursor: default;
+    }
+    
+    label {
+        margin-bottom: 30px;
+    }
+    
+    #form .container {
+        margin: auto;
+        max-width: 500px;
+        text-align: center;
+        position: relative;
+        top: 50px;
+        padding-bottom: 10px;
+        background-color: rgba(30, 80, 245, 0.466);
+        border-radius: 5px;
+    }
+    
+    #form .container p {
+        font-size: 15px;
+        font-weight: 200;
+        margin-top: 20px;
+    }
+    
+    #form .container .btn {
+        background-color: rgb(46, 165, 42);
+        padding: 10px 20px;
+        border: none;
+        outline: none;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.8s;
+        margin-top: 5px;
+    }
+    
+    #form .container .btn:hover {
+        background: grey;
+        color: black;
+    }
+    
+    input {
+        width: 180px;
+        height: 27px;
+        outline: none;
+        border: 2px;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    
+    @media only screen and (max-width: 150px) {
+        #form {
+            display: grid;
+            /* grid-template-columns: repeat(2, 1fr); */
+            grid-template-columns: auto;
+        }
+    }
+    
+    @media only screen and (max-width: 242px) {
+        #form {
+            display: grid;
+            /* grid-template-columns: repeat(2, 1fr); */
+            grid-template-columns: auto;
+        }
+    }
